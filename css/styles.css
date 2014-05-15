@@ -1,0 +1,119 @@
+body{
+	font-family: arial;
+}
+
+img#logo{
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+h1{
+	text-align: center;
+	font-size: 210%;
+}
+
+nav{
+	border-bottom: 6px solid #5193AD;
+	margin-bottom: 20px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	margin: 5px;
+}
+
+nav li{
+	display: inline;
+	width: 6px;
+	color: #5193AD;
+	background-color: #C4E7F5;
+	text-align: center;
+}
+
+nav li a #Home {
+	float: left;
+	width: 10%;
+}
+
+nav li a #about-me{
+	float: left;
+	width: 25%;
+}
+
+nav li a #blog{
+	float: left;
+	width: 55%;
+}
+
+nav li a #contact{
+	float: left;
+	width: 80%;
+}
+
+#content .articleheader {
+	background-color: #5193AD;
+	padding: 30px;
+}
+
+#content h2 {
+	font-size: 200%;
+	color: #C4E7F5;
+}
+
+#content .articlebody {
+	background-color: #C4E7F5;
+	padding: 30px;
+}
+
+#content p {
+	margin-bottom: 5px;
+}
+
+#content img {
+	float: right;
+	height: 19%;
+	width: 19%;
+}
+
+.articleheader {
+	background-color: #DCDCDC;
+	padding: 30px;
+}
+
+.articleheader h2, h3 {
+	font-size: 200%;
+	color: gray;
+}
+
+.articlebody p {
+	padding: 30px;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 20px;
+}
+
+#foose-table th {
+	background-color: #DCDCDC;
+	padding: 10px;
+}
+
+th, td { 
+	text-align: left;
+}
+
+div.articlebody ul {
+	list-style-position: inside;
+}
+
+#email_input, #message_area {
+	border-width: 1px;
+	border-style: solid;
+	width: 1100px;
+}
